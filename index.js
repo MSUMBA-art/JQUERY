@@ -30,9 +30,9 @@ $("h1").addClass("big-title margin");
 // }
 
 //ADDING EVENT LISTENERS TO ALL BUTTONS IN Jquery
-$("button").click(function () {
-    $("h1").css("color", "green");
-})
+//$("button").click(function () {
+   // $("h1").css("color", "red");
+//})
 
 //targeting input in jq
 // $(document).keypress(function(event) {
@@ -43,6 +43,8 @@ $("button").click(function () {
 //same
 
 $(document).on("mouseover", function() {
-    $("h1").css("color", "blue")
+    $("h1").css("color", "red")
 })
+
+
 
