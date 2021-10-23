@@ -42,9 +42,11 @@ $("h1").addClass("big-title margin");
 
 //same
 
-$(document).on("mouseover", function() {
-    $("h1").css("color", "red")
+//$(document).on("mouseover", function() {
+ //   $("h1").css("color", "red")
+//})
+
+$("button").click(function () {
+    $("h1").slideToggle(); //.show, .hide, .toggle, .fadeOut, .toggle
 })
-
-
 
