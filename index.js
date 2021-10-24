@@ -46,7 +46,15 @@ $("h1").addClass("big-title margin");
  //   $("h1").css("color", "red")
 //})
 
-$("button").click(function () {
-    $("h1").slideToggle(); //.show, .hide, .toggle, .fadeOut, .toggle
+// $("button").click(function () {
+//     $("h1").slideToggle(); //.show, .hide, .toggle, .fadeOut, .toggle
+// })
+
+// Animate method
+$("button").click(function() {
+    // $("h1").animate({margin: "20%"});
+    //  $("h1").animate({opacity: 0.5});
+    //below is multiple jquries
+    $("h1").slideUp().slideDown().animate({opacity: 0.5, margin:"20%"});
 })
 
